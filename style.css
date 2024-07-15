@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    background-image: url(./assisment\ bg\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main-container > h1{
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 5%;
+    color: rgb(90, 156, 35) ;
+    
+}
+.main-container > h1:hover{
+    font-size: 100px;
+    color: rgb(201, 240, 139);
+}
+
+.Anhor-section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 0% 0% 25%;
+}
+.web{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#web{
+    margin-left: 1%;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+#ui{
+    font-size: 60px;
+    margin-bottom: 5%;
+    
+}
+.web a{
+    font-size: 50px;
+    color:yellow;
+    align-items: start;
+    
+    text-decoration: none;
+}
+.ui{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ui a{
+    font-size: 22px;
+    color:yellow;
+    align-items: start;
+    text-decoration: none;
+}
+
+
+/* responsive 480px */
+
+@media (max-width:768px) {
+
+    .main-container{
+        width: 100%;
+        height: 100vh;
+
+    }
+    .main-container > h1{
+        font-size: 45px;
+        text-align: center;
+
+
+        
+    }
+
+    .main-container > h1:hover{
+        font-size: 55px;
+    }
+    .Anhor-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 7%;
+    }
+
+    .web{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ui{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    #web{
+        font-size: 60px;
+        margin-left: -10%;
+        margin-bottom: 10%;
+        color: blueviolet;
+        
+    }
+
+    #ui{
+        font-size: 60px;
+        margin-left: 13%;
+        margin-bottom: 10%;
+        color: blueviolet;
+    }
+    .ui a{
+        margin-left: 20px;
+    }
+
+    
+}
